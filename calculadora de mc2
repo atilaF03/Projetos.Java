@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+public class App {
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        final double c = 2;
+        double a = 0, b = 0;
+        double resultado, jaule = 0;
+
+        System.out.println("insira a massa");
+        a = scan.nextDouble();
+        System.out.println("insira a velocidade");
+        b = scan.nextDouble();
+
+        resultado = a * (b * b);
+        jaule = resultado / 2;
+        System.out.println(jaule);
+    }
+
+}
